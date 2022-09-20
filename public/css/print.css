@@ -1,0 +1,10 @@
+#cart-print
+{
+    width: 60rem !important;
+    margin: 0 auto;
+}
+#cart-print .invoice-show
+{
+    display: flex !important;
+    justify-content: center;
+}

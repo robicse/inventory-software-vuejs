@@ -1,0 +1,30 @@
+@import '../components/Variables.scss';
+@import '../helper/PlaceHolder.scss';
+
+.settings-left-card
+{
+  padding-left: 0 !important;
+
+  .main-layout-card
+  {
+    margin-bottom: 0.75rem;
+  }
+
+  @extend %custom-list-with-active-border;
+}
+
+
+//Email
+#test-mail
+{
+  &::placeholder
+  {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 991px){
+  .settings-left-card
+  {
+    padding-right: 0 !important;
+  }
+}

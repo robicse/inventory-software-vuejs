@@ -1,0 +1,284 @@
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&text=0123456789");*/
+/*@import url("https://fonts.googleapis.com/css?family=Raleway");*/
+
+/*<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i|Raleway" rel="stylesheet">*/
+body{
+    font-family: "Raleway", "Roboto";
+    background-color: #f0f2f7 !important;
+}
+.margin-fix
+{
+    margin-bottom: 0 !important;
+}
+.no-border
+{
+    border: 0 !important;
+}
+.no-margin
+{
+    margin: 0 !important;
+}
+.back-img
+{
+    background: url("../images/loginimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forgot-password-text{
+    font-size: 0.9rem
+}
+.padding-fixer
+{
+    padding: 0 !important;
+}
+.content-parent
+{
+    background: #ffffffe8;
+    height: 100vh;
+    display: table;
+}
+.content-child
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0rem 2rem;
+    width: 100vw;
+}
+.loader-parent
+{
+    height: 94vh;
+    display: table;
+}
+.loader-child
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+}
+
+a.bluish-text:hover
+{
+    color: #ef5350 !important;
+}
+
+.top-margin
+{
+    margin-top: 13rem;
+}
+.max-content-height
+{
+    max-height: 78.9vh;
+    overflow: auto;
+}
+.title-text-size
+{
+    font-size: 1.5rem !important;
+}
+#confirm-delete
+{
+    height: 100%;
+    width: 100%;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+    background: rgba(255, 255, 255, 0);
+}
+#calendar_modal
+{
+    height: 100%;
+    width: 100%;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+    background: rgba(255, 255, 255, 1);
+    top:0 !important;
+}
+
+.admin-layout-margin
+{
+    margin-left: 9rem !important;
+    margin-top: 1rem !important;
+    padding: 0 0.75rem;
+}
+.collection a.collection-item:not(.active):hover {
+    background-color: #4a97fd !important;
+    color: #fff !important;
+}
+.settings-form
+{
+    margin-left: 7.333333%;
+}
+.settings-card-wrapper
+{
+    margin: 0 7.333333%;
+    padding: 0 0.75rem;
+
+}
+.action-col
+{
+   width: 6.59rem;
+    text-align: center;
+}
+.role-close-button
+{
+    position: absolute;
+    right: 1.4rem;
+    top: 1.4rem;
+}
+.role-close-button:hover i
+{
+    color: #ef5350 !important;
+}
+.collection-header
+{
+    line-height: 1.5rem;
+    padding: 10px 20px;
+}
+.no-active-border
+{
+    border: 0 !important;
+    border-left: 3px solid #ffffff00 !important;
+}
+.active-border{
+    border-left: 3px solid #4a97fd !important;
+    transition: all 0.8s ease-in-out;
+}
+.mob-btn
+{
+    margin: 0 0.4rem 0 0;
+}
+.offday-checkbox-space
+{
+    margin-right: 1.5rem;
+}
+
+/*services-btn-tyle*/
+.fixed-action-btn.horizontal {
+    padding: 0 0 0 0px;
+    z-index: 1;
+}
+.fixed-action-btn {
+    position: relative;
+    top: 5px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.fixed-action-btn.horizontal ul li {
+    margin: 0px 15px 0 0;
+}
+.fixed-action-btn.horizontal ul {
+    right: 50px;
+    top: 15%;
+    width: max-content !important;
+}
+.progress {
+    height: 2px !important;
+    margin: 0rem !important;
+}
+.preloader-login
+{
+    margin-top : -21px !important;
+    margin-bottom : 19px !important;
+}
+.spinner-white,
+.spinner-white-only {
+    border-color: #fff;
+}
+.smaller{
+    height: 23px;
+    width: 23px;
+    vertical-align: middle;
+    bottom: 0.1rem;
+}
+.chartjs-loader
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+}
+.dashboard-card-parent {
+    display: table;
+}
+.dashboard-card-child{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.add-btn{
+    margin-top: 0.37rem !important;
+    margin-right: 0.6rem;
+}
+.dashboard-card-child2 {
+    display: table-cell;
+}
+#date-dropdown , #date-dropdown1
+{
+    width: 12% !important;
+}
+.date-dropdown-button
+{
+    height: 1.7rem;
+}
+.date-range-input
+{
+    margin-bottom: 0 !important;
+    height: 1.65rem !important;
+    text-align: center !important;
+}
+.margin-top-date-input-field
+{
+    margin-top: 0 !important;
+}
+.date-filter-label
+{
+    margin-bottom: 0.75rem !important;
+    color: #9e9e9e !important;
+    font-size: 0.8rem;
+}
+.date-range-filter
+{
+    border-bottom: 1px solid grey;
+}
+.date-between
+{
+    margin-top: 0.3rem !important;
+    font-size: 1.5rem;
+}
+.date-dropdown-button i{
+    width: 100%;
+}
+label[data-error]:after {
+    white-space: nowrap;
+}
+@media (max-width:601px)
+{
+    .mob-btn
+    {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 993px) {
+    .admin-layout-margin
+    {
+        margin-left: 0 !important;
+    }
+    .settings-form
+    {
+        margin-left: 0;
+    }
+    .settings-card-wrapper
+    {
+        margin: 0;
+
+    }
+
+}
+@media only screen and (min-width: 993px)
+{
+    .row .col.offset-l8 {
+
+        margin-left: 66.6935%;
+    }
+}

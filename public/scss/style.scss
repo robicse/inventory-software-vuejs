@@ -1,0 +1,55 @@
+//Components
+@import "components/Variables.scss";
+@import "components/Loader.scss";
+@import "components/ActionButton.scss";
+@import "components/buttonLoader.scss";
+@import "components/rollerLoader.scss";
+
+//Raleway Font
+@import url('fonts/Raleway/raleway.css');
+//Line awesome icons
+@import url('icons/line-awesome/css/line-awesome.css');
+@import url('icons/line-awesome/css/line-awesome-font-awesome.min.css');
+
+
+
+//Includes
+
+// Navbar Custom
+@import "includes/NavbarCustom.scss";
+
+// Tabs Custom
+@import "includes/TabsCustom.scss";
+
+//Common Use
+@import "includes/CommonUse.scss";
+
+// Sidebar
+@import "includes/Sidebar.scss";
+
+//Main Layout
+@import "includes/MainLayout.scss";
+
+//Customized Bootstrap Classes
+@import "includes/CustomizedBootstrapClass";
+
+
+//Pages
+
+//Settings Index
+@import "pages/Settings.scss";
+
+@import "pages/Profile.scss";
+
+@import "pages/Sales.scss";
+
+@import "custom/custom.scss";
+@import "custom/dateRangePicker.scss";
+@import "custom/salesReportsDetails.scss";
+@import "custom/productDetails.scss";
+@import "custom/popover/popover";
+@import "custom/tooglesSwitch/toogleSwitch";
+@import "custom/Customer & Suppelier/customerSupplier.scss";
+@import "custom-style.scss";
+
+@import "custom/newCustom.scss";

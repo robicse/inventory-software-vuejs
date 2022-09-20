@@ -1,0 +1,130 @@
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+
+}
+.form-group.col-md-2.re-pos {
+  margin-top: 37px;
+  /* background-color: aliceblue; */
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 70px;
+  height: 73px;
+  /* top: 10%; */
+  left: 15%;
+  right: 2em;
+  /* background-color: antiquewhite; */
+  cursor: pointer;
+  z-index: 999;
+}
+.input:checked + .slider:hover{
+  background-color: #34bfa3!important;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider[data-v-5a25ea76] {
+  position: absolute;
+  cursor: pointer;
+  top: 23px;
+  left: 8px;
+  right: 0;
+  bottom: -15px;
+  height: 25px;
+  max-width: 50px;
+  border-radius: 14px;
+  background-color: blueviolet;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider[data-v-5a25ea76][data-v-5a25ea76]:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 13px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #535561;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.shortcut_button{
+  padding-top: 2px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.sales_shortcut{
+  padding: 5px !important;
+  margin: 10px !important;
+}
+.disable_button{
+  padding-bottom: 9px !important;
+}
+.save_button{
+  margin-top: -60px !important;
+}
+
+@media (max-width: 1600px) {
+  .switch {
+
+    left: 19% !important;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .switch {
+
+    left: 19% !important;
+  }
+}
+@media screen and (min-width: 1097px) and (max-width: 1281px) {
+  .switch {
+
+    left: 28% !important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1097px) {
+  .switch {
+    left: 32% !important;
+  }
+
+}
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .switch {
+    /* top: 10%; */
+    left: 33% !important;
+
+
+  }
+
+}
